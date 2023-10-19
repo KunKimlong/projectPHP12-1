@@ -1,0 +1,51 @@
+tbl_news{
+    id
+    title
+    description
+    thumnail
+    banner
+    post_by
+    category(socail,sport,entertainment)
+    news_type(national,international)
+    post_date
+    viewer
+}
+
+tbl_user{
+    id
+    username
+    email
+    password
+    profile
+}
+
+tbl_logo{
+    id
+    thumnail
+    status(header,footer,all)
+    create_at
+}
+
+tbl_about_us{
+    id
+    description
+    create_at
+}
+
+tbl_follow_us{
+    id
+    thumnail
+    label
+    status(follow us,footer)
+    url
+    create_at
+}
+tbl_feedback{
+    id
+    username
+    email
+    telephone
+    address
+    message
+    feedback_date;
+}
